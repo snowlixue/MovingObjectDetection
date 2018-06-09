@@ -1,0 +1,742 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Emgu.CV.Contrib</name>
+    </assembly>
+    <members>
+        <member name="T:Emgu.CV.BgSegm.BackgroundSubtractorGMG">
+            <summary>
+            Background Subtractor module based on the algorithm given in:
+            Andrew B. Godbehere, Akihiro Matsukawa, Ken Goldberg, 
+            “Visual Tracking of Human Visitors under Variable-Lighting Conditions for a Responsive Audio Art Installation”, 
+            American Control Conference, Montreal, June 2012.
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.BgSegm.BackgroundSubtractorGMG.#ctor(System.Int32,System.Double)">
+            <summary>
+            Create a background subtractor module based on GMG
+            </summary>
+            <param name="initializationFrames">Number of frames used to initialize the background models.</param>
+            <param name="decisionThreshold">Threshold value, above which it is marked foreground, else background.</param>
+        </member>
+        <member name="M:Emgu.CV.BgSegm.BackgroundSubtractorGMG.DisposeObject">
+            <summary>
+            Release all the unmanaged memory associated with this background model.
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.BgSegm.BackgroundSubtractorMOG">
+            <summary>
+            Gaussian Mixture-based Background/Foreground Segmentation Algorithm.
+            The class implements the following algorithm:
+            "An improved adaptive background mixture model for real-time tracking with shadow detection"
+            P. KadewTraKuPong and R. Bowden,
+            Proc. 2nd European Workshp on Advanced Video-Based Surveillance Systems, 2001."
+            http://personal.ee.surrey.ac.uk/Personal/R.Bowden/publications/avbs01/avbs01.pdf
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.BgSegm.BackgroundSubtractorMOG.#ctor(System.Int32,System.Int32,System.Double,System.Double)">
+            <summary>
+            Create an "Improved adaptive Gaussian mixture model for background subtraction".
+            </summary>
+            <param name="history">The length of the history.</param>
+            <param name="nMixtures">The maximum number of gaussian mixtures.</param>
+            <param name="backgroundRatio">Background ratio</param>
+            <param name="noiseSigma">Noise strength (standard deviation of the brightness or each color channel). 0 means some automatic value.</param>
+        </member>
+        <member name="M:Emgu.CV.BgSegm.BackgroundSubtractorMOG.DisposeObject">
+            <summary>
+            Release all the unmanaged memory associated with this background model.
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.Face.FaceRecognizer">
+            <summary>
+            Face Recognizer
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Face.FaceRecognizer.Train(Emgu.CV.IInputArray,Emgu.CV.IInputArray)">
+            <summary>
+            Train the face recognizer with the specific images and labels
+            </summary>
+            <param name="images">The images used in the training. This can be a VectorOfMat</param>
+            <param name="labels">The labels of the images. This can be a VectorOfInt</param>
+        </member>
+        <member name="M:Emgu.CV.Face.FaceRecognizer.Train``2(Emgu.CV.Image{``0,``1}[],System.Int32[])">
+            <summary>
+            Train the face recognizer with the specific images and labels
+            </summary>
+            <param name="images">The images used in the training.</param>
+            <param name="labels">The labels of the images.</param>
+        </member>
+        <member name="M:Emgu.CV.Face.FaceRecognizer.Predict(Emgu.CV.IInputArray)">
+            <summary>
+            Predict the label of the image
+            </summary>
+            <param name="image">The image where prediction will be based on</param>
+            <returns>The prediction label</returns>
+        </member>
+        <member name="M:Emgu.CV.Face.FaceRecognizer.Save(System.String)">
+            <summary>
+            Save the FaceRecognizer to a file
+            </summary>
+            <param name="fileName">The file name to be saved to</param>
+        </member>
+        <member name="M:Emgu.CV.Face.FaceRecognizer.Load(System.String)">
+            <summary>
+            Load the FaceRecognizer from the file
+            </summary>
+            <param name="fileName">The file where the FaceRecognizer will be loaded from</param>
+        </member>
+        <member name="M:Emgu.CV.Face.FaceRecognizer.DisposeObject">
+            <summary>
+            Release the unmanaged memory associated with this FaceRecognizer
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.Face.FaceRecognizer.PredictionResult">
+            <summary>
+            The prediction result
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Face.FaceRecognizer.PredictionResult.Label">
+            <summary>
+            The label
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Face.FaceRecognizer.PredictionResult.Distance">
+            <summary>
+            The distance
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.Face.EigenFaceRecognizer">
+            <summary>
+            Eigen face recognizer
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Face.EigenFaceRecognizer.#ctor(System.Int32,System.Double)">
+            <summary>
+            Create an EigenFaceRecognizer
+            </summary>
+            <param name="numComponents">The number of components</param>
+            <param name="threshold">The distance threshold</param>
+        </member>
+        <member name="T:Emgu.CV.Face.FisherFaceRecognizer">
+            <summary>
+            Fisher face recognizer
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Face.FisherFaceRecognizer.#ctor(System.Int32,System.Double)">
+            <summary>
+            Create a FisherFaceRecognizer
+            </summary>
+            <param name="numComponents">The number of components</param>
+            <param name="threshold">The distance threshold</param>
+        </member>
+        <member name="T:Emgu.CV.Face.LBPHFaceRecognizer">
+            <summary>
+            LBPH face recognizer
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Face.LBPHFaceRecognizer.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Double)">
+            <summary>
+            Create a LBPH face recognizer
+            </summary>
+            <param name="radius">Radius</param>
+            <param name="neighbors">Neighbors</param>
+            <param name="gridX">Grid X</param>
+            <param name="gridY">Grid Y</param>
+            <param name="threshold">The distance threshold</param>
+        </member>
+        <member name="M:Emgu.CV.Face.LBPHFaceRecognizer.Update(Emgu.CV.IInputArray,Emgu.CV.IInputArray)">
+            <summary>
+            Updates a FaceRecognizer with given data and associated labels.
+            </summary>
+            <param name="images">The training images, that means the faces you want to learn. The data has to be given as a VectorOfMat.</param>
+            <param name="labels">The labels corresponding to the images</param>
+        </member>
+        <member name="M:Emgu.CV.Face.LBPHFaceRecognizer.Update``2(Emgu.CV.Image{``0,``1}[],System.Int32[])">
+            <summary>
+            Update the face recognizer with the specific images and labels
+            </summary>
+            <param name="images">The images used for updating the face recognizer</param>
+            <param name="labels">The labels of the images</param>
+        </member>
+        <member name="T:Emgu.CV.Text.MCvERStat">
+            <summary>
+            The ERStat structure represents a class-specific Extremal Region (ER).
+            An ER is a 4-connected set of pixels with all its grey-level values smaller than the values in its outer boundary. 
+            A class-specific ER is selected (using a classifier) from all the ER’s in the component tree of the image.
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.Pixel">
+            <summary>
+            Seed point
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.Level">
+            <summary>
+            Threshold (max grey-level value)
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.Area">
+            <summary>
+            Area
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.Perimeter">
+            <summary>
+            Perimeter
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.Euler">
+            <summary>
+            Euler number
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.Rect">
+            <summary>
+            Bounding box
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.RawMoments0">
+            <summary>
+            Order 1 raw moments to derive the centroid
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.RawMoments1">
+            <summary>
+            Order 1 raw moments to derive the centroid
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.CentralMoments0">
+            <summary>
+            Order 2 central moments to construct the covariance matrix
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.CentralMoments1">
+            <summary>
+            Order 2 central moments to construct the covariance matrix
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.CentralMoments2">
+            <summary>
+            Order 2 central moments to construct the covariance matrix
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.Crossings">
+            <summary>
+            Pointer to horizontal crossings
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.MedCrossings">
+            <summary>
+            Median of the crossings at three different height levels
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.HoleAreaRatio">
+            <summary>
+            Hole area ratio
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.ConvexHullRatio">
+            <summary>
+            Convex hull ratio
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.NumInflexionPoints">
+            <summary>
+            Number of inflexion points
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.Pixels">
+            <summary>
+            Pointer to pixels
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.probability">
+            <summary>
+            Probability that the ER belongs to the class we are looking for
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.ParentPtr">
+            <summary>
+            Pointer to the parent ERStat
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.ChildPtr">
+            <summary>
+            Pointer to the child ERStat
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.NextPtr">
+            <summary>
+            Pointer to the next ERStat
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.PrevPtr">
+            <summary>
+            Pointer to the previous ERStat
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.LocalMaxima">
+            <summary>
+            If or not the regions is a local maxima of the probability
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.MaxProbabilityAncestor">
+            <summary>
+            Pointer to the ERStat that is the max probability ancestor
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.Text.MCvERStat.MinProbabilityAncestor">
+            <summary>
+            Pointer to the ERStat that is the min probability ancestor
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Text.MCvERStat.GetCenter(System.Int32)">
+            <summary>
+            Get the center of the region
+            </summary>
+            <param name="imageWidth">The source image width</param>
+            <returns>The center of the region</returns>
+        </member>
+        <member name="T:Emgu.CV.Text.ERFilter">
+            <summary>
+            Base class for 1st and 2nd stages of Neumann and Matas scene text detection algorithm
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Text.ERFilter.DisposeObject">
+            <summary>
+            Release all the unmanaged memory associate with this ERFilter
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Text.ERFilter.Run(Emgu.CV.IInputArray,Emgu.CV.Text.VectorOfERStat)">
+            <summary>
+            Takes image on input and returns the selected regions in a vector of ERStat only distinctive ERs which correspond to characters are selected by a sequential classifier
+            </summary>
+            <param name="image">Sinle channel image CV_8UC1</param>
+            <param name="regions">Output for the 1st stage and Input/Output for the 2nd. The selected Extremal Regions are stored here.</param>
+        </member>
+        <member name="M:Emgu.CV.Text.ERFilter.ERGrouping(Emgu.CV.IInputArray,Emgu.CV.IInputArrayOfArrays,Emgu.CV.Text.VectorOfERStat[],Emgu.CV.Text.ERFilter.GroupingMethod,System.String,System.Single)">
+            <summary>
+            Find groups of Extremal Regions that are organized as text blocks.
+            </summary>
+            <param name="channels">Array of single channel images from which the regions were extracted</param>
+            <param name="erstats">Vector of ER’s retrieved from the ERFilter algorithm from each channel</param>
+            <param name="groupingTrainedFileName">The XML or YAML file with the classifier model (e.g. trained_classifier_erGrouping.xml)</param>
+            <param name="minProbability">The minimum probability for accepting a group.</param>
+            <returns>The output of the algorithm that indicates the text regions</returns>
+        </member>
+        <member name="T:Emgu.CV.Text.ERFilterNM1">
+            <summary>
+            Extremal Region Filter for the 1st stage classifier of N&amp;M algorithm
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Text.ERFilterNM1.#ctor(System.String,System.Int32,System.Single,System.Single,System.Single,System.Boolean,System.Single)">
+            <summary>
+            Create an Extremal Region Filter for the 1st stage classifier of N&amp;M algorithm
+            </summary>
+            <param name="classifierFileName">The file name of the classifier</param>
+            <param name="thresholdDelta">Threshold step in subsequent thresholds when extracting the component tree.</param>
+            <param name="minArea">The minimum area (% of image size) allowed for retreived ER’s.</param>
+            <param name="maxArea">The maximum area (% of image size) allowed for retreived ER’s.</param>
+            <param name="minProbability">The minimum probability P(er|character) allowed for retreived ER’s.</param>
+            <param name="nonMaxSuppression">Whenever non-maximum suppression is done over the branch probabilities.</param>
+            <param name="minProbabilityDiff">The minimum probability difference between local maxima and local minima ERs.</param>
+        </member>
+        <member name="T:Emgu.CV.Text.ERFilterNM2">
+            <summary>
+            Extremal Region Filter for the 2nd stage classifier of N&amp;M algorithm
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Text.ERFilterNM2.#ctor(System.String,System.Single)">
+            <summary>
+            Create an Extremal Region Filter for the 2nd stage classifier of N&amp;M algorithm
+            </summary>
+            <param name="classifierFileName">The file name of the classifier</param>
+            <param name="minProbability">The minimum probability P(er|character) allowed for retreived ER’s.</param>
+        </member>
+        <member name="T:Emgu.CV.Text.VectorOfERStat">
+            <summary>
+            Wrapped class of the C++ standard vector of ERStat.
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Text.VectorOfERStat.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Constructor used to deserialize runtime serialized object
+            </summary>
+            <param name="info">The serialization info</param>
+            <param name="context">The streaming context</param>
+        </member>
+        <member name="M:Emgu.CV.Text.VectorOfERStat.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            A function used for runtime serialization of the object
+            </summary>
+            <param name="info">Serialization info</param>
+            <param name="context">Streaming context</param>
+        </member>
+        <member name="M:Emgu.CV.Text.VectorOfERStat.#ctor">
+            <summary>
+            Create an empty standard vector of ERStat
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Text.VectorOfERStat.#ctor(System.Int32)">
+            <summary>
+            Create an standard vector of ERStat of the specific size
+            </summary>
+            <param name="size">The size of the vector</param>
+        </member>
+        <member name="M:Emgu.CV.Text.VectorOfERStat.#ctor(Emgu.CV.Text.MCvERStat[])">
+            <summary>
+            Create an standard vector of ERStat with the initial values
+            </summary>
+            <param name="values">The initial values</param>
+        </member>
+        <member name="M:Emgu.CV.Text.VectorOfERStat.Push(Emgu.CV.Text.MCvERStat[])">
+            <summary>
+            Push an array of value into the standard vector
+            </summary>
+            <param name="value">The value to be pushed to the vector</param>
+        </member>
+        <member name="M:Emgu.CV.Text.VectorOfERStat.ToArray">
+            <summary>
+            Convert the standard vector to an array of ERStat
+            </summary>
+            <returns>An array of ERStat</returns>
+        </member>
+        <member name="M:Emgu.CV.Text.VectorOfERStat.Clear">
+            <summary>
+            Clear the vector
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Text.VectorOfERStat.DisposeObject">
+            <summary>
+            Release the standard vector
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Text.VectorOfERStat.GetInputArray">
+            <summary>
+            Get the pointer to cv::_InputArray
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Text.VectorOfERStat.GetOutputArray">
+            <summary>
+            Get the pointer to cv::_OutputArray
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.Text.VectorOfERStat.GetInputOutputArray">
+            <summary>
+            Get the pointer to cv::_InputOutputArray
+            </summary>
+        </member>
+        <member name="P:Emgu.CV.Text.VectorOfERStat.Size">
+            <summary>
+            Get the size of the vector
+            </summary>
+        </member>
+        <member name="P:Emgu.CV.Text.VectorOfERStat.StartAddress">
+            <summary>
+            The pointer to the first element on the vector. In case of an empty vector, IntPtr.Zero will be returned.
+            </summary>
+        </member>
+        <member name="P:Emgu.CV.Text.VectorOfERStat.Item(System.Int32)">
+            <summary>
+            Get the item in the specific index
+            </summary>
+            <param name="index">The index</param>
+            <returns>The item in the specific index</returns>
+        </member>
+        <member name="T:Emgu.CV.XFeatures2D.BriefDescriptorExtractor">
+            <summary>
+            BRIEF Descriptor
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.BriefDescriptorExtractor.#ctor(System.Int32)">
+            <summary>
+            Create a BRIEF descriptor extractor.
+            </summary>
+            <param name="descriptorSize">The size of descriptor. It can be equal 16, 32 or 64 bytes.</param>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.BriefDescriptorExtractor.DisposeObject">
+            <summary>
+            Release all the unmanaged resource associated with BRIEF
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.XFeatures2D.ContribInvoke">
+            <summary>
+            This class wraps the functional calls to the opencv contrib modules
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.XFeatures2D.CudaSURF">
+            <summary>
+            A SURF detector using Cuda
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.CudaSURF.#ctor(System.Single,System.Int32,System.Int32,System.Boolean,System.Single,System.Boolean)">
+            <summary>
+            Create a Cuda SURF detector
+            </summary>
+            <param name="hessianThreshold">The interest operator threshold.</param>
+            <param name="nOctaves">The number of octaves to process.</param>
+            <param name="nOctaveLayers">The number of layers in each octave.</param>
+            <param name="extended">True, if generate 128-len descriptors, false - 64-len descriptors.</param>
+            <param name="featuresRatio">Max features = featuresRatio * img.size().srea().</param>
+            <param name="upright">If set to true, the orientation is not computed for the keypoints</param>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.CudaSURF.DetectKeyPointsRaw(Emgu.CV.Cuda.GpuMat,Emgu.CV.Cuda.GpuMat)">
+            <summary>
+            Detect keypoints in the CudaImage
+            </summary>
+            <param name="img">The image where keypoints will be detected from</param>
+            <param name="mask">The optional mask, can be null if not needed</param>
+            <returns>
+            The keypoints GpuMat that will have 1 row.
+            keypoints.at&lt;float[6]&gt;(1, i) contains i'th keypoint
+            format: (x, y, size, response, angle, octave)
+            </returns>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.CudaSURF.DetectKeyPoints(Emgu.CV.Cuda.GpuMat,Emgu.CV.Cuda.GpuMat)">
+            <summary>
+            Detect keypoints in the CudaImage
+            </summary>
+            <param name="img">The image where keypoints will be detected from</param>
+            <param name="mask">The optional mask, can be null if not needed</param>
+            <returns>An array of keypoints</returns>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.CudaSURF.DownloadKeypoints(Emgu.CV.Cuda.GpuMat,Emgu.CV.Util.VectorOfKeyPoint)">
+            <summary>
+            Obtain the keypoints array from GpuMat
+            </summary>
+            <param name="src">The keypoints obtained from DetectKeyPointsRaw</param>
+            <param name="dst">The vector of keypoints</param>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.CudaSURF.UploadKeypoints(Emgu.CV.Util.VectorOfKeyPoint,Emgu.CV.Cuda.GpuMat)">
+            <summary>
+            Obtain a GpuMat from the keypoints array
+            </summary>
+            <param name="src">The keypoints array</param>
+            <param name="dst">A GpuMat that represent the keypoints</param>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.CudaSURF.ComputeDescriptorsRaw(Emgu.CV.Cuda.GpuMat,Emgu.CV.Cuda.GpuMat,Emgu.CV.Cuda.GpuMat)">
+            <summary>
+            Compute the descriptor given the image and the point location
+            </summary>
+            <param name="image">The image where the descriptor will be computed from</param>
+            <param name="mask">The optional mask, can be null if not needed</param>
+            <param name="keyPoints">The keypoint where the descriptor will be computed from. The order of the keypoints might be changed unless the GPU_SURF detector is UP-RIGHT.</param>
+            <returns>The image features founded on the keypoint location</returns>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.CudaSURF.DisposeObject">
+            <summary>
+            Release the unmanaged resource associate to the Detector
+            </summary>
+        </member>
+        <member name="P:Emgu.CV.XFeatures2D.CudaSURF.DescriptorSize">
+            <summary>
+            Return the size of the descriptor (64/128)
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.XFeatures2D.DAISY">
+            <summary>
+            Daisy descriptor.
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.DAISY.#ctor(System.Single,System.Int32,System.Int32,System.Int32,Emgu.CV.XFeatures2D.DAISY.NormalizationType,Emgu.CV.IInputArray,System.Boolean,System.Boolean)">
+            <summary>
+            Create DAISY descriptor extractor
+            </summary>
+            <param name="radius">Radius of the descriptor at the initial scale.</param>
+            <param name="qRadius">Amount of radial range division quantity.</param>
+            <param name="qTheta">Amount of angular range division quantity.</param>
+            <param name="qHist">Amount of gradient orientations range division quantity.</param>
+            <param name="norm">Descriptors normalization type.</param>
+            <param name="H">optional 3x3 homography matrix used to warp the grid of daisy but sampling keypoints remains unwarped on image</param>
+            <param name="interpolation">Switch to disable interpolation for speed improvement at minor quality loss</param>
+            <param name="useOrientation">Sample patterns using keypoints orientation, disabled by default.</param>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.DAISY.DisposeObject">
+            <summary>
+            Release all the unmanaged resource associated with BRIEF
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.XFeatures2D.DAISY.NormalizationType">
+            <summary>
+            Normalization type
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.XFeatures2D.DAISY.NormalizationType.None">
+            <summary>
+            Will not do any normalization (default)
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.XFeatures2D.DAISY.NormalizationType.Partial">
+            <summary>
+            Histograms are normalized independently for L2 norm equal to 1.0
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.XFeatures2D.DAISY.NormalizationType.Full">
+            <summary>
+            Descriptors are normalized for L2 norm equal to 1.0
+            </summary>
+        </member>
+        <member name="F:Emgu.CV.XFeatures2D.DAISY.NormalizationType.SIFT">
+            <summary>
+            Descriptors are normalized for L2 norm equal to 1.0 but no individual one is bigger than 0.154 as in SIFT
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.XFeatures2D.Freak">
+            <summary>
+            The FREAK (Fast Retina Keypoint) keypoint descriptor:
+            Alahi, R. Ortiz, and P. Vandergheynst. FREAK: Fast Retina Keypoint. In IEEE Conference on Computer
+            Vision and Pattern Recognition, 2012. CVPR 2012 Open Source Award Winner.
+            The algorithm
+            propose a novel keypoint descriptor inspired by the human visual system and more precisely the retina, coined Fast
+            Retina Key- point (FREAK). A cascade of binary strings is computed by efficiently comparing image intensities over a
+            retinal sampling pattern. FREAKs are in general faster to compute with lower memory load and also more robust than
+            SIFT, SURF or BRISK. They are competitive alternatives to existing keypoints in particular for embedded applications.
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.Freak.#ctor(System.Boolean,System.Boolean,System.Single,System.Int32)">
+            <summary>
+            Create a Freak descriptor extractor.
+            </summary>
+            <param name="orientationNormalized">Enable orientation normalization</param>
+            <param name="scaleNormalized">Enable scale normalization</param>
+            <param name="patternScale">Scaling of the description pattern</param>
+            <param name="nOctaves">Number of octaves covered by the detected keypoints.</param>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.Freak.DisposeObject">
+            <summary>
+            Release all the unmanaged resource associated with BRIEF
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.XFeatures2D.LATCH">
+            <summary>
+            latch Class for computing the LATCH descriptor.
+            If you find this code useful, please add a reference to the following paper in your work:
+            Gil Levi and Tal Hassner, "LATCH: Learned Arrangements of Three Patch Codes", arXiv preprint arXiv:1501.03719, 15 Jan. 2015
+            LATCH is a binary descriptor based on learned comparisons of triplets of image patches.
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.LATCH.#ctor(System.Int32,System.Boolean,System.Int32)">
+            <summary>
+            Create LATCH descriptor extractor
+            </summary>
+            <param name="bytes">The size of the descriptor - can be 64, 32, 16, 8, 4, 2 or 1</param>
+            <param name="rotationInvariance">Whether or not the descriptor should compensate for orientation changes.</param>
+            <param name="halfSsdSize">the size of half of the mini-patches size. For example, if we would like to compare triplets of patches of size 7x7x
+            then the half_ssd_size should be (7-1)/2 = 3.</param>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.LATCH.DisposeObject">
+            <summary>
+            Release all the unmanaged resource associated with BRIEF
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.XFeatures2D.LUCID">
+            <summary>
+            The locally uniform comparison image descriptor:
+            An image descriptor that can be computed very fast, while being
+            about as robust as, for example, SURF or BRIEF.
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.LUCID.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Create a locally uniform comparison image descriptor.
+            </summary>
+            <param name="lucidKernel">Kernel for descriptor construction, where 1=3x3, 2=5x5, 3=7x7 and so forth</param>
+            <param name="blurKernel">kernel for blurring image prior to descriptor construction, where 1=3x3, 2=5x5, 3=7x7 and so forth</param>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.LUCID.DisposeObject">
+            <summary>
+            Release all the unmanaged resource associated with BRIEF
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.XFeatures2D.SIFT">
+            <summary>
+            Wrapped SIFT detector
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.SIFT.#ctor(System.Int32,System.Int32,System.Double,System.Double,System.Double)">
+            <summary>
+            Create a SIFT using the specific values
+            </summary>
+            <param name="nFeatures">The desired number of features. Use 0 for un-restricted number of features</param>
+            <param name="nOctaveLayers">The number of octave layers. Use 3 for default</param>
+            <param name="contrastThreshold">Contrast threshold. Use 0.04 as default</param>
+            <param name="edgeThreshold">Detector parameter. Use 10.0 as default</param>
+            <param name="sigma">Use 1.6 as default</param>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.SIFT.DisposeObject">
+            <summary>
+            Release the unmanaged resources associated with this object
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.XFeatures2D.StarDetector">
+            <summary>
+            StarDetector
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.StarDetector.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+             <summary>
+             Create a star detector with the specific parameters
+             </summary>
+             <param name="maxSize">
+             Maximum size of the features. The following
+             values of the parameter are supported:
+             4, 6, 8, 11, 12, 16, 22, 23, 32, 45, 46, 64, 90, 128</param>
+             <param name="responseThreshold">
+             Threshold for the approximated laplacian,
+             used to eliminate weak features. The larger it is,
+             the less features will be retrieved
+             </param>
+             <param name="lineThresholdProjected">
+             Another threshold for the laplacian to eliminate edges.
+             The larger the threshold, the more points you get.
+             </param>
+             <param name="lineThresholdBinarized">
+             Another threshold for the feature size to eliminate edges. 
+             The larger the threshold, the more points you get.</param>
+             <param name="suppressNonmaxSize">
+            
+             </param>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.StarDetector.DisposeObject">
+            <summary>
+            Release the unmanaged memory associated with this detector.
+            </summary>
+        </member>
+        <member name="T:Emgu.CV.XFeatures2D.SURF">
+            <summary>
+            Class for extracting Speeded Up Robust Features from an image
+            </summary>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.SURF.#ctor(System.Double,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Create a SURF detector using the specific values
+            </summary>
+            <param name="hessianThresh">      
+            Only features with keypoint.hessian larger than that are extracted.
+            good default value is ~300-500 (can depend on the average local contrast and sharpness of the image).
+            user can further filter out some features based on their hessian values and other characteristics
+            </param>
+            <param name="extended">      
+            false means basic descriptors (64 elements each),
+            true means extended descriptors (128 elements each)
+            </param>
+            <param name="nOctaves">
+            The number of octaves to be used for extraction.
+            With each next octave the feature size is doubled
+            </param>
+            <param name="nOctaveLayers">
+            The number of layers within each octave
+            </param>
+            <param name="upright">
+            False means that detector computes orientation of each feature. 
+            True means that the orientation is not computed (which is much, much faster). 
+            For example, if you match images from a stereo pair, or do image stitching, the matched features likely have very similar angles, and you can speed up feature extraction by setting upright=true.</param>
+        </member>
+        <member name="M:Emgu.CV.XFeatures2D.SURF.DisposeObject">
+            <summary>
+            Release the unmanaged memory associated with this detector.
+            </summary>
+        </member>
+    </members>
+</doc>

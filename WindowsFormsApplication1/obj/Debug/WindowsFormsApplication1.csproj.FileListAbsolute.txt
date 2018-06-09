@@ -1,0 +1,109 @@
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Contrib.dll
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.dll
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.UI.dll
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.Util.dll
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Cuda.dll
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.xml
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Contrib.xml
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.UI.xml
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.Util.xml
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Cuda.xml
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\zwz.WJW-PC\Desktop\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Contrib.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.UI.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.Util.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Cuda.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.xml
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Contrib.xml
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.UI.xml
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.Util.xml
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Cuda.xml
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Contrib.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.UI.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.Util.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Cuda.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.xml
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Contrib.xml
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.UI.xml
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.Util.xml
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Cuda.xml
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-CN\ZedGraph.resources.dll
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\zwz.WJW-PC\Desktop\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\zwz.WJW-PC\Desktop\桌面文件夹\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\zwz.WJW-PC\Desktop\桌面文件夹\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\zwz.WJW-PC\Desktop\桌面文件夹\桌面垃圾\桌面垃圾箱\word\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Contrib.dll
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.dll
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.UI.dll
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.Util.dll
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Cuda.dll
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.xml
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Contrib.xml
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.UI.xml
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.Util.xml
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Emgu.CV.Cuda.xml
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\zh-CN\ZedGraph.resources.dll
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+W:\桌面文件夹\书写资料过程\第八章 高级篇\运动检测\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\desktop\运动物体检测\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+E:\desktop\运动物体检测\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+E:\desktop\运动物体检测\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+E:\desktop\运动物体检测\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+E:\desktop\运动物体检测\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+E:\desktop\运动物体检测\WindowsFormsApplication1\bin\Debug\Emgu.CV.Cuda.dll
+E:\desktop\运动物体检测\WindowsFormsApplication1\bin\Debug\ZedGraph.dll
+E:\desktop\运动物体检测\WindowsFormsApplication1\bin\Debug\Emgu.CV.xml
+E:\desktop\运动物体检测\WindowsFormsApplication1\bin\Debug\Emgu.CV.Contrib.xml
+E:\desktop\运动物体检测\WindowsFormsApplication1\bin\Debug\Emgu.CV.UI.xml
+E:\desktop\运动物体检测\WindowsFormsApplication1\bin\Debug\Emgu.Util.xml
+E:\desktop\运动物体检测\WindowsFormsApplication1\bin\Debug\Emgu.CV.Cuda.xml
+E:\desktop\运动物体检测\WindowsFormsApplication1\bin\Debug\ZedGraph.xml
+E:\desktop\运动物体检测\WindowsFormsApplication1\bin\Debug\zh-CN\ZedGraph.resources.dll
+E:\desktop\运动物体检测\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+E:\desktop\运动物体检测\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+E:\desktop\运动物体检测\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+E:\desktop\运动物体检测\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
